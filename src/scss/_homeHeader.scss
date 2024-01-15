@@ -1,0 +1,57 @@
+#header {
+  background-image: url("https://preview.colorlib.com/theme/itlock/assets/img/hero/h1_hero1.jpg.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 750px;
+  .header-content {
+    max-width: 1320px;
+    height: 750px;
+    margin: 0 auto;
+    padding: 0 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    h1 {
+      color: white;
+      font-size: 72px;
+      line-height: 80px;
+      font-weight: 500;
+      position: relative;
+      &::after{
+        height: 5px;
+        width: 100px;
+        background-color: #fff;
+        position: absolute;
+        bottom: -25px;
+        left: 0;
+        content: "";
+      }
+    }
+    p {
+      color: white;
+      font-size: 20px;
+    }
+    a {
+      height: 60px;
+      width: 188px;
+      border: 2px solid #ffffff;
+      font-size: 18px;
+      font-weight: 400;
+      color: #fff;
+      line-height: 57px;
+      display: block;
+      text-align: center;
+      transition: all 400ms;
+      background-size: 0% 0%;
+      &:hover {
+        color: #fff;
+        background-color: #316ec2;
+        border-color: #316ec2;
+        background-size: 50% 50%;
+      }
+    }
+  }
+}
+

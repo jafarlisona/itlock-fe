@@ -1,0 +1,95 @@
+nav {
+  display: flex;
+  flex-direction: column;
+  padding: 0 90px;
+  .navbar-heading {
+    border-bottom: 1px solid #d3d5e2;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    p {
+      color: #4c526e;
+      span {
+        color: #003072;
+        font-weight: 500;
+      }
+    }
+    .brands {
+      display: flex;
+      gap: 20px;
+      i {
+        transition: all 300ms;
+        color: #003072;
+        &:hover {
+          color: #316ec2;
+        }
+      }
+    }
+  }
+  .navbar {
+    height: 85px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    .nav-main {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 50px;
+      .pages {
+        display: flex;
+        gap: 30px;
+        a {
+          color: #003072;
+          font-size: 18px;
+          transition: all 300ms;
+          &:hover {
+            color: #316ec2;
+          }
+        }
+        .active {
+          color: #316ec2;
+        }
+      }
+    }
+    .nav-contacts {
+      align-items: center;
+      gap: 30px;
+      display: flex;
+      justify-content: space-between;
+      #quote {
+        height: 50px;
+        width: 157px;
+        border: 2px solid #316ec2;
+        font-size: 16px;
+        font-weight: 500;
+        color: #316ec2;
+        line-height: 45px;
+        display: block;
+        text-align: center;
+        transition: all 400ms;
+        &:hover {
+          color: #fff;
+          background-color: #316ec2;
+        }
+      }
+      .tel {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        .tel-number {
+          p {
+            color: #9b9eac;
+            font-size: 14px;
+          }
+          a {
+            color: #003072;
+            font-weight: 500;
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+}
